@@ -1,32 +1,78 @@
-# AdminDashboard
+# Admin Dashboard
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.5.
+A modern Angular admin dashboard with Material Design components. This project provides a clean, responsive interface for administrative tasks with authentication, navigation, and dashboard widgets.
 
-## Development server
+## 🚀 Features
 
-To start a local development server, run:
+- **Modern Angular**: Built with Angular 20+ and TypeScript
+- **Material Design**: Professional UI components using Angular Material
+- **Responsive Layout**: Mobile-friendly design with flexbox and CSS Grid
+- **Authentication**: Login page with form validation
+- **Dashboard Widgets**: Statistics cards, activity feed, and chart placeholders
+- **Navigation**: Sidebar menu with routing support
+- **GitHub Pages**: Configured for easy deployment
+
+## 📦 Components
+
+- **Header Component**: Top navigation bar with user menu
+- **Sidebar Component**: Navigation menu with dashboard links
+- **Dashboard Component**: Main dashboard with stats and activity widgets
+- **Login Component**: Authentication form with validation
+
+## 🛠 Development
+
+### Prerequisites
+- Node.js 20+ and npm
+- Angular CLI 20+
+
+### Installation
 
 ```bash
-ng serve
+# Clone the repository
+git clone https://github.com/wecodeitt/sonet.git
+cd sonet
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+The application will be available at `http://localhost:4200/`
 
-## Code scaffolding
+## 🏗 Building
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
+### Development Build
 ```bash
-ng generate component component-name
+npm run build
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
+### Production Build for GitHub Pages
 ```bash
-ng generate --help
+npm run build:gh-pages
 ```
 
-## Building
+## 🚢 Deployment
+
+The project is configured for automatic deployment to GitHub Pages. Push to the main branch to trigger deployment.
+
+## 📱 Screenshots
+
+- **Dashboard**: Statistics overview with widgets and charts
+- **Login**: Secure authentication form
+- **Responsive**: Mobile-friendly layout
+
+## 🎨 Technology Stack
+
+- **Frontend**: Angular 20, TypeScript, SCSS
+- **UI Library**: Angular Material
+- **Build Tool**: Angular CLI with Webpack
+- **Deployment**: GitHub Pages with GitHub Actions
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
 
 To build the project run:
 
